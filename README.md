@@ -19,3 +19,21 @@
 - HTTPs
 - Tree Shaking - Remove unused code
 - Different dev and prod build
+
+
+
+# Food Ordering App
+ * Header
+ * - Logo
+ * - Nav Items
+ * Body
+ *  - Search
+ *  - Resto Conationer
+ *    - RestaurantCard
+ *      - img
+ *      - Name of res, Star Rating, cusine, delivery time
+ * Footer
+ *  - copyright
+ *  - Links
+ *  - Address
+ *  - Contacts

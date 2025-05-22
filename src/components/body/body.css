@@ -1,0 +1,33 @@
+.res-container {
+  margin-left: 30px;
+  margin-right: 30px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  padding: 0px 10px;
+}
+
+.filter {
+    display: flex;
+    justify-content: right;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.filter-btn {
+  padding: 10px;
+    cursor: pointer;
+    background: white;
+    color: #ff5200;
+    font-weight: 600;
+}
+

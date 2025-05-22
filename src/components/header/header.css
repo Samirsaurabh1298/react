@@ -1,0 +1,43 @@
+/* Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  border-bottom: 1px solid #eee;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ff5200;
+  font-family: Arial, sans-serif;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+}
+
+.nav-items ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-items li {
+  list-style-type: none;
+  margin: 0 15px;
+  padding: 5px 0;
+  font-size: 16px;
+  cursor: pointer;
+}
