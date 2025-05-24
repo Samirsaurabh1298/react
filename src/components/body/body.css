@@ -16,18 +16,33 @@ body {
   padding: 0px 10px;
 }
 
-.filter {
-    display: flex;
-    justify-content: right;
-    padding: 20px;
-    cursor: pointer;
+.filter-btn:hover {
+  color: white;
+  background-color: darkgreen;
 }
 
-.filter-btn {
-  padding: 10px;
-    cursor: pointer;
-    background: white;
-    color: #ff5200;
-    font-weight: 600;
+.loading-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
 }
 
+.loading-container > img {
+  width: 30px;
+}
+
+.reset-btn {
+  background-color: #6b7280; 
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 10px;
+  transition: background-color 0.2s ease;
+}
+
+.reset-btn:hover {
+  background-color: #4b5563; 
+}

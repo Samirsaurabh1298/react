@@ -1,0 +1,17 @@
+.filter {
+    cursor: pointer;
+    justify-content: space-between;
+    padding: 20px 70px 0 70px;
+    display: flex
+;
+}
+
+.filter-btn {
+  cursor: pointer;
+  color: white;
+  background: #ff5200;
+  padding: 10px;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+}

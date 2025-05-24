@@ -1,0 +1,21 @@
+.search {
+  position: relative;
+  width: 250px;
+}
+
+.search input[type="search"] {
+  width: 100%;
+  padding: 10px 35px 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+  font-size: 14px;
+}
+
+.search i {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+}
